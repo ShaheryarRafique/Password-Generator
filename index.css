@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Karla;
+    src: url('karla/Karla-Bold.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+    font-style: normal;
+    background-color: rgba(31, 41, 55, 1);
+}
+
+.container {
+    width: 550px;
+    height: 390px;
+    margin: 80px auto;
+    border-left: 10px outset rgba(16, 185, 129, 1);
+    border-bottom: 10px inset rgba(16, 185, 129, 1);
+    padding: 35px 35px 0px;
+    border-radius: 20px;
+    background-color:rgba(31, 41, 55, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0px 2px 7px rgba(16, 185, 129, 1);
+    transform: rotate(-3deg);
+    transition: transform 1400ms;
+}
+
+.container:hover {
+    filter: blur(0.3px);
+}
+
+h1 {
+    margin: 0px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+#title1-el {
+    color: white;
+}
+
+#title2-el {
+    color: rgba(16, 185, 129, 1);
+}
+
+#description {
+    color: rgba(213, 212, 216, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Inter';
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+.label {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    color: rgba(213, 212, 216, 1);
+    font-size: 18px;
+    font-weight: italic;
+}
+
+.label > input {
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    width: 40px;
+    padding: 3px 5px;
+    text-align: center;
+    background-color: rgba(16, 185, 129, 1);
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+#generate {
+    padding: 9px 17px 9px 15px;
+    background: #10B981;
+    border-radius: 6px;
+    border: none;
+
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#generate:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 20px auto 0px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.input-wrapper > input {
+    background: #273549;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: italic;
+    border: none;
+    text-align: center;
+    font-family: 'Inter';
+    width: 100%;
+    margin: 0px 25px;
+    text-shadow: 0.8px 0px 1px rgba(16, 185, 129, 1);
+}
+
+#line {
+    margin: 20px 0px 10px;
+    width: 100%;
+    border: 1px solid rgba(47, 62, 83, 1);
+}
